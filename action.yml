@@ -1,5 +1,5 @@
-name: GitHub Pages Pelican Build Action
-description: This action builds a Pelican project and deploys it to GitHub Pages.
+name: GitHub Pages Nikola Build Action
+description: This action builds a Nikola project and deploys it to GitHub Pages.
 
 branding:
   icon: 'home'
@@ -15,6 +15,6 @@ inputs:
     required: false
     default: 'gh-pages'
   PELICAN_CONFIG_FILE:
-    description: 'override the default `pelicanconf.py` config file'
+    description: 'override the default `conf.py` config file'
     required: false
-    default: pelicanconf.py
+    default: conf.py
